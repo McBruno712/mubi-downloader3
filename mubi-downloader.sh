@@ -119,7 +119,7 @@ if [ ! -d "$MODULE_PATH" ]; then
 fi
 
 # Add the src directory to PYTHONPATH
-export PYTHONPATH="$PYTHONPATH:$(pwd)"
+export PYTHONPATH="$PYTHONPATH:$(pwd)/src/"
 
 # Run the mubi downloader
 echo -e "${GREEN}Starting Mubi Downloader...${NC}"
