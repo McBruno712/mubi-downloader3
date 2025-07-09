@@ -13,6 +13,10 @@ A tool to download movies from Mubi.
 
 - Python 3.8 or higher
 - FFmpeg (for merging media files)
+- python3.12-venv
+- cmake
+- libglib2.0-dev
+- libglib2.0-dev
 - A valid Mubi subscription and login in your browser
 
 ## Installation
